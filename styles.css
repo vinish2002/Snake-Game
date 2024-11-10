@@ -1,0 +1,74 @@
+* {
+    font-family: "Audiowide", sans-serif;
+}
+body
+{
+    background: url(https://media.istockphoto.com/id/942272700/photo/holographic-neon-background.jpg?s=612x612&w=0&k=20&c=qhXAfKaTIXkmRC_kcOGPK8_9vpp33j0vIfxEkz-Yfhg=) no-repeat center center fixed; 
+    background-size: cover;
+    align-items : center;
+    border-radius: 20px;
+} 
+.container{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.btn, h2{
+    font-weight: 400;
+}
+.btn{
+    padding: 5px 20px;
+    font-size: 20px;
+}
+h1{
+    font-weight: 400;
+    font-size: 48px;
+}
+.grid{
+    max-width: 300px;
+    height: 300px;
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:bisque;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px grey;
+}
+.fail
+{
+    border: 2px solid crimson;
+    box-shadow: 0 0 0 5px crimson;
+}
+.square{
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+}
+.snake{
+    background-color:green;
+    border-radius: 40%;
+}
+.apple{
+    font-size: 18px;
+}
+.btn{
+    cursor: pointer;
+    color: white;
+    background-color: #5B2C6F;
+    font-size: 1.5rem; 
+    padding: 10px; 
+    border: 0px; 
+    border-radius: 10px;
+    box-shadow: black 3px 5px 3px; 
+}
+.contact{
+    margin-top: 20px;
+    display: grid;   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    color: brown;
+}
